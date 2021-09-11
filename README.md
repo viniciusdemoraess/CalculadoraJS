@@ -1,1 +1,1 @@
-# CalculadoraJS
+<img src="https://img.icons8.com/color/2x/calculator.png"> # CalculadoraJS
