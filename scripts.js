@@ -39,10 +39,11 @@ buttons.forEach( (btn) => {
         if(btn.id.match('evaluate')){            
             currentInput.className = 'answe-screen'
             answerScreen.className = 'current-input'
+            currentInput.innerHTML = ''
             answerScreen.style.color = "white"
         }
 
-        if((typeof eval(realTimeScreenValue.join(''))) == 'undefined'){
+        if(typeof eval(realTimeScreenValue.join('')) == 'undefined'){
             answerScreen.innerHTML = 0
         }
 
